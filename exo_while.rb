@@ -9,13 +9,12 @@ n = input-1
 
 puts "Voici la pyramide :"
 
-input.times do
-  if n >=0
+while n >=0 do
   puts "#{space * n} #{hash * i}"
   i = i+1
   n = n-1
 end
-end
+
         
 
     
