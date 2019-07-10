@@ -1,6 +1,6 @@
 puts "Saisissez un nombre"
 print "> "
-user_choixnombre = gets.chomp.to_i
+user_choixnombre = gets.to_i
 
 i=1
 user_choixnombre.times do

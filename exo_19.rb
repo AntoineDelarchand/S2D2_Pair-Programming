@@ -10,7 +10,7 @@ prog_nbr = 50
 
 prog_nbr.times do
     if prog_cpt <= prog_nbr
-        prog_arr.push "#{user_prenom.lowercase}.#{user_nom.lowercase}.#{prog_cpt}@email.fr"
+        prog_arr.push "#{user_prenom}.#{user_nom}.#{prog_cpt}@email.fr"
         prog_cpt = prog_cpt + 2
     end
 end
